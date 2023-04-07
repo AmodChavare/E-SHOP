@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+.navbar-brand{
+    margin-left: 40px;
+    font-weight: bold;
+    color: purple;
+    font-size: 30px;
+    font-family: 'Prata', serif;   
+}
+
+.navbar-brand:hover{
+    color: blue;
+}
+
+.nav-link{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color:blue;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: purple;
+    margin: 10px;   
+    font-family: 'Great Vibes', cursive;   
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-images {
+    display: flex;
+    width: 300%; 
+    transition: all 0.5s ease;
+}
+
+.slider-images img {
+    width: 33.33%; 
+}
+
+.slider-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}
+
+.shop-now {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.shop-now button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now button:hover {
+    background-color: #d12e00;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Prata', serif;
+}
+
+h6{
+    text-align: center;
+    margin-top: 20px;
+}
+
+h5{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.subscribe p {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe form {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe input {
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;  
+    width: 300px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.subscribe button {
+    padding: 10px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px ;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+h4{
+    font-family: 'Prata', serif;
+    color: purple;
+}
+
+
+
+@media only screen and (max-width: 599px) {
+    .subscribe {
+    flex-direction: column;
+    align-items: stretch;
+    }
+    
+    .subscribe p {
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    }
+    
+    .subscribe input {
+    width: 100%;
+    border-radius: 5px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+    
+    .subscribe button {
+    width: 100%;
+    border-radius: 5px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+    .subscribe p {
+    font-size: 18px;
+    }
+    
+    .subscribe input[type="email"] {
+    width: 400px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .subscribe input[type="email"] {
+    width: 500px;
+    }
+}
+
+.product{
+    margin-top: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.shop-now-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.shop-now-button:hover {
+    background-color: #3e8e41;
+}
+
+.choose-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: purple;
+    margin: 10px;   
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
